@@ -1,22 +1,28 @@
 # Student Management System (C++)
 
-A simple console-based C++ project demonstrating modular programming and GitHub collaboration.
+A clean, modular, console-based Student Management System using C++.
+Each feature is separated into its own module and managed from main.cpp.
 
-## 🧩 Features:
-- Secure login system
-- Add new student records
-- Calculate and display academic results
-- Centralized dashboard menu
+## 📦 Features:
+- 🔐 Login System
+- 🎓 Student Management
+- 📊 Result Calculation
+- 🧭 Dashboard Overview
+
+## 🧠 How it Works:
+1. User logs in using credentials.
+2. Main menu gives access to all modules independently.
+3. Each module runs separately (no dependency on others).
 
 ## 👥 Team Members:
 - Ikram Ullah — Project Manager / Dashboard Module
-- Aziz — Login Module
-- Usman — Student Module
-- Feroz — Result Module
+- Ali Khan — Login Module
+- Ayesha Noor — Student Module
+- Hamza Ahmed — Result Module
 
-## 💻 How to Run:
-1. Open the project in Code::Blocks or Visual Studio Code.
-2. Make sure all `.h` and `.cpp` files are in the correct folders.
+## 💻 Run Instructions:
+1. Open in Code::Blocks or VS Code.
+2. Make sure `include` and `src` folders are correctly placed.
 3. Compile and run `main.cpp`.
 4. Default Login:
    - Username: admin
